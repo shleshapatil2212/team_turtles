@@ -1,0 +1,248 @@
+ *{
+    margin:0px;
+    border:border-box;
+  }
+  body{
+
+  }
+ .container{
+    background-color:black;
+    width: 100%;
+    height: 200px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+ 
+ }
+ .logo{
+   width:40%;
+   display: flex;
+   justify-content: center;
+ }
+ nav{
+width: 100%;
+display: flex;
+align-items:center;
+justify-content: space-between; 
+padding:10px 0;
+ }
+ .logo{
+   width:200px;
+   cursor: pointer;
+
+ }
+ .navlogo
+ {
+    width:50%;
+ }
+ .bigname{
+    font-size: 60px;
+ }
+ 
+ nav ul{
+   list-style: none;
+   width:90%;
+   text-align: right;
+   padding-right: 60px;
+
+ }
+ nav ul li{
+   display :inline-block;
+   margin:10px 20px;
+ }
+ nav ul li a{
+   color:azure;
+   text-decoration: none;
+
+ }
+.search-pannel{
+   width: 100%;
+   height: 40px;
+   background-color: rgb(115, 99, 118);
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+}
+#search-bar{
+   width: 400px;
+   height: 20px;
+   
+}
+form button{
+   height: 26px;
+   /* border-radius: 30%; */
+}
+.search-box{
+   /* border:4px solid transparent; */
+   /* color: black; */
+   /* height: 70%;
+   width: 60%; */
+}
+
+.search-icon{
+   /* height:40%; */
+   /* border:4px solid transparent; */
+   /* width: 40%; */
+}
+
+
+.search-results{
+   width: 100%;
+   position:relative;
+   overflow: hidden;
+   background-color: #161B21;
+   display: block;
+   justify-content: center;
+   align-items: center;
+   height: 100%;
+   background-image: url("/livebg.html");
+}
+.search-result1{
+   /* font-style: italic; */
+   background-color: rgb(119, 127, 127);
+   margin-bottom: 30px;
+   margin-right: 10%;
+   margin-left: 10%;
+   font-weight: 500;
+   width:80%;
+   border-color: #f9d342;
+   border-style: solid;
+   display:flex ;
+   justify-content: space-evenly;
+
+}
+.search-result1:hover{
+    background-image: url("");
+    background-size: cover;
+}
+.search-result1 img{
+   height: 500px;
+   margin-bottom: 30px ;
+   margin-left: 40px;
+
+}
+#rs3{
+    margin-bottom: 0px;
+}
+.rinfo{
+   margin-top: 30px;
+   margin-left: 50px;
+  
+}
+.size{
+   font-size: large;
+   font-weight: 800;
+   color: #09f194;
+}
+
+.flex{
+   margin-top: 30px;
+   margin-bottom: 4px;
+   display: flex;
+   justify-content: baseline;
+}
+
+.font{
+   font-style: italic;
+   color: #E4F1FF;
+   font-size: 17px ;
+}
+.synopsis{
+   
+}
+
+  *{
+      padding:0;
+      margin:0;
+      boxsizing: border-box;
+  }
+  footer{
+
+      background-color:#2b2727;
+  }
+  .row{
+   width:85%;
+   margin:auto;
+   display:flex;
+   align-items: flex-start;
+   justify-content: space-between;
+  }
+  .col{
+   flex-basis: 25%;
+   padding:10px;
+  }
+  .footerContainer{
+      width:100%;
+      padding:70px 30px 20 px;
+  }
+  .socialIcons{
+      display: flex;
+      justify-content:center;
+  }
+  .socialIcons a{
+      text-decoration:none;
+      padding: 10px;
+      background-color:white;
+      margin: 10px;
+      border-radius:50%;
+  
+  }
+  .socialIcons a i{
+      font-size:2em;
+      color:black;
+      opacity:0.9;
+  }
+  .socialIcons a:hover{
+      background-color:black;
+      transition:0.9 s;
+  
+  }
+  .socialIcons a:hover i{
+  color:white;
+  transition:0.9s;
+  }
+  .footerNav{
+      margin: 30px 0;
+  }
+  .footerNav ul{
+      display:flex;
+      justify-content:space-evenly;
+  }
+  .footerNav ul li a{
+      color: rgb(181, 177, 177);
+      margin:100 px;
+      text-decoration:none;
+      font-size:1.3em;
+      opacity:0.9;
+      transition: 1 s;
+  }
+  .footerNav ul li a:hover{
+      opacity:2;
+  }
+  .footerBottom{
+      background-color: black;
+      padding:20px;
+      text-align: center;
+  }
+  .footerBottom p{
+  color:white;
+  
+  }
+  .designer{
+      opacity:0.7;
+      text-transform: uppercase;
+      letter-spacing:1px;
+      font-weight: 400;
+      margin:0px 5px;
+  }
+  @media (max-width:700px){
+      .footerNav ul{
+          flex-direction:column;
+      }
+      .footerNavul li{
+          width:100%;
+          text-align: center;
+          margin: 10px;
+      }
+  }
